@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "monitor.js",
   "scripts": {
-    "start": "concurrently \"node monitor.js\" \"node server.js\""
+    "start": "npx concurrently \"node monitor.js\" \"node server.js\""
   },
   "keywords": [],
   "author": "",
